@@ -17,7 +17,7 @@ class Assignment2:
         sys.stdout.write("Your age is %d\n" % age)
 
     #Task 3 (List)
-    def listAniversaries(self):
+    def listAnniversaries(self):
         aniv_List = []
 
         age = 2022 - self.year
