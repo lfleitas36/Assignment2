@@ -42,7 +42,7 @@ class Assignment2:
     def checkGoodString(string):
 
 
-       if len(string)>=9 and (string[0].isupper()): #check if the string is at least 9 char long and first letter upper
+       if len(string)>=9 and (string[0].islower()): #check if the string is at least 9 char long and first letter upper
 
           count = 0
           for d in string: #for every char in the string verify if is a number
